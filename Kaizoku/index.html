@@ -7,24 +7,38 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  
+
 <header class="navbar">
   <div class="brand">
-    <span class="logo">KAIZOKU</span>
-    <span class="tagline">Personal Anime Hub</span>
+    <div class="logo-with-text">
+      <img src="covers/one_piece.jpg.jpg" alt="KAIZOKU" class="logo-img">
+      <span class="logo">KAIZOKU</span>
+    </div>
+    <span class="tagline">Anime & Manga Hub</span>
   </div>
-  <input id="search" type="text" placeholder="Search anime...">
 </header>
 
-<main class="container">
-  <section id="animeGrid" class="grid"></section>
+<main class="container landing-container">
+  <div class="landing-tiles">
+    <a href="anime.html" class="landing-tile anime-tile">
+      <div class="tile-content">
+        <h2>Anime</h2>
+        <p>Watch anime online</p>
+      </div>
+    </a>
+    <a href="manga.html" class="landing-tile manga-tile">
+      <div class="tile-content">
+        <h2>Manga</h2>
+        <p>Read manga online</p>
+      </div>
+    </a>
+  </div>
 </main>
 
 <footer class="footer">
-  KAIZOKU • Personal Anime Hub
-</footer> 
+  KAIZOKU • Anime & Manga Hub
+</footer>
 
-<script src="app.js"></script>
 </body>
 </html>
   
