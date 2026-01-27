@@ -3,31 +3,31 @@ const animeData = [
     title: "One Piece",
     cover: "covers/one_piece.jpg.jpg",
     episodes: 1155,
-    url: "https://hianime.to/one-piece-100"
+    url: "https://hianime.cz/one-piece-100"
   },
   {
     title: "Naruto Shippuden",
     cover: "covers/ .jpg",
     episodes: 500,
-    url: "https://hianime.to/naruto-shippuden-355"
+    url: "https://hianime.cz/naruto-shippuden-355"
   },
   {
     title: "Jujutsu Kaisen",
     cover: "covers/jujutsu_kaisen.jpg.jpg",
     episodes: 60,
-    url: "https://hianime.to/jujutsu-kaisen-tv-534"
+    url: "https://hianime.cz/jujutsu-kaisen-tv-534"
   },
   {
     title: "Demon Slayer",
     cover: "covers/demon_slayer.jpg.jpg",
     episodes: 55,
-    url: "https://hianime.to/demon-slayer-kimetsu-no-yaiba-47"
+    url: "https://hianime.cz/demon-slayer-kimetsu-no-yaiba-47"
   },
   {
     title: "Your Name",
     cover: "covers/your_name.jpg.jpg",
     episodes: 0,
-    url: "https://hianime.to/your-name-10"
+    url: "https://hianime.cz/your-name-10"
   },
   {
     title: "Blue Lock",
@@ -39,7 +39,7 @@ const animeData = [
     title: "Mushoku Tensei",
     cover: "covers/mushoku_tensei.jpg.jpg",
     episodes: 0,
-    url: "https://hianime.to/mushoku-tensei-jobless-reincarnation-15820"
+    url: "https://hianime.cz/mushoku-tensei-jobless-reincarnation-15820"
   }
 ];
 
