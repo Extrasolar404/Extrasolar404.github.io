@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>KAIZOKU</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="navbar">
+  <div class="brand">
+    <div class="logo-with-text">
+      <img src="covers/one_piece.jpg.jpg" alt="KAIZOKU" class="logo-img">
+      <span class="logo">KAIZOKU</span>
+    </div>
+    <span class="tagline">Anime & Manga Hub</span>
+  </div>
+</header>
+
+<!-- Development banner -->
+<div class="dev-banner">⚠️ <strong>Note:</strong> Site is under development — features and categories are being improved.</div>
+
+<!-- Recommendation panel (can be closed) -->
+<aside class="rec-panel" id="recPanel" role="dialog" aria-label="Browser recommendation">
+  <button class="rec-close" id="recClose" aria-label="Close recommendation">✕</button>
+  <div class="rec-inner">
+    <h3>Recommendation</h3>
+    <p>For best experience, we recommend using <strong>Firefox</strong>. Choose your platform:</p>
+    <div class="rec-actions">
+      <a class="rec-btn pc" href="https://www.mozilla.org/en-US/firefox/new/" target="_blank" rel="noopener">Download for PC</a>
+      <a class="rec-btn android" href="https://play.google.com/store/apps/details?id=org.mozilla.firefox" target="_blank" rel="noopener">Download for Android</a>
+    </div>
+    <div class="rec-extensions">
+      <p><strong>Recommended Firefox extensions:</strong></p>
+      <ul>
+        <li><a href="https://addons.mozilla.org/en-US/firefox/addon/adblock-plus/" target="_blank" rel="noopener">Adblock Plus</a></li>
+        <li><a href="https://addons.mozilla.org/en-US/firefox/addon/popup-blocker/" target="_blank" rel="noopener">Popup Blocker</a></li>
+      </ul>
+    </div>
+  </div>
+</aside>
+
+<main class="container landing-container">
+  <div class="landing-tiles">
+    <a href="anime.html" class="landing-tile anime-tile">
+      <div class="tile-content">
+        <h2>Anime</h2>
+        <p>Watch anime online</p>
+      </div>
+    </a>
+    <a href="manga.html" class="landing-tile manga-tile">
+      <div class="tile-content">
+        <h2>Manga</h2>
+        <p>Read manga online</p>
+      </div>
+    </a>
+  </div>
+</main>
+
+<footer class="footer">
+  KAIZOKU • Anime & Manga Hub
+</footer>
+
+</body>
+<script>
+  // Close the recommendation panel (only recommendation can be closed)
+  (function(){
+    const closeBtn = document.getElementById('recClose');
+    const panel = document.getElementById('recPanel');
+    if(closeBtn && panel){
+      closeBtn.addEventListener('click', ()=>{
+        panel.classList.add('rec-hide');
+        setTimeout(()=>panel.style.display='none',400);
+      });
+    }
+  })();
+</script>
+</html>
+  
